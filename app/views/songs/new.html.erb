@@ -1,5 +1,6 @@
 <h1>Create a Song</h1>
-
+ <% binding.pry %>
+ 
 <%= form_for @song  do |f| %>
   <%= f.label :title %>
   <%= f.text_field :title %>
@@ -12,7 +13,7 @@
         <input name="song[note_contents[]" id="song_notes_3" >
      <input type="submit" value="Submit">
 
-       <% binding.pry %>
+
   <%= f.submit %>
 
 <% end %>
