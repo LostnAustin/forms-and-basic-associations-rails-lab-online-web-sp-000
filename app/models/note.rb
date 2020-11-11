@@ -1,5 +1,5 @@
 class Note < ActiveRecord::Base
   # add associations here
-  content :String
+  content :string
   belongs_to :song
 end
